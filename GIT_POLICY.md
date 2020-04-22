@@ -22,7 +22,7 @@
     `[feature] $ git rebase dev`
 
 2. Same steps for Develop branch when master has new update
-### Resolve conflict during rebase
+### Danger!!! Resolve conflict during rebase
 1. Merge code manually
 
     `[feature] $ git add <change-file>`
@@ -37,7 +37,7 @@
     `[feature] $ git rebase --abort`
 
 ### Push code to remote
-1. Kiểm tra xem có bất cứ commit nào đã được push lên trước đó hay không
+1. Check other commits
 
     `[feature] $ git reabase origin/feature`
 2. User push command
