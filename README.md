@@ -1,0 +1,1 @@
+# vmo11-git-policy
