@@ -16,14 +16,14 @@
     -- ComponentA.tsx
     -- ComponentB.tsx
     -- ...
-    -- index.ts // use name export for all of components
+    -- index.ts // use named export for all of components
     pages
     -- User
     ---- components
     ------ ListUsers.tsx
     ------ OtherComponent.tsx
     ------ ...
-    ------ index.ts // use name export for all of components
+    ------ index.ts // use named export for all of components
     ---- index.tsx
     ---- type.ts    
     ```
