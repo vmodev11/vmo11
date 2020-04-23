@@ -51,7 +51,7 @@
 1. Commit format: 
 
     `<Type>: <[JIRA_ID]> action description on/for screen/function`
-    - **Type** (optional): A type of change that you're committing. eg: feat, fix, docs, style, refactor,...
+    - **Type** (required): A type of change that you're committing. eg: feat, fix, docs, style, refactor,...
     - **JIRA_ID** (optional): prefer to add, if not please create jira issue for this action
 2. In case of processing commits separately, you can create a local branch then delete it after finished
 3. Remove changes on local branch
