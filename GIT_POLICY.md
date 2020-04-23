@@ -65,7 +65,9 @@
     
 2. NPM package
     
-    `yarn add -D commitizen huyhq-cz-jira-smart-commit`
+    `yarn add -D commitizen`
+    
+    `./node_modules/commitizen/bin/commitizen init huyhq-cz-jira-smart-commit --yarn --dev --exact`
     
     **package.json**
     ```
@@ -74,12 +76,7 @@
         "scripts": {
             ...
             "commit": "git cz"
-        },
-        "config": {
-        "commitizen": {
-          "path": "./node_modules/huyhq-cz-jira-smart-commit"
         }
-      }
     }
     ```
     **Use**
