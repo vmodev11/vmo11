@@ -33,3 +33,8 @@
 
     - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
     - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+    - **[Settings Sync](https://github.com/shanalikhan/code-settings-sync)**
+
+        **Use Public GitHub Gist. Read the details [here](https://dev.to/shanalikhan/how-to-share-your-visual-studio-code-settings-and-extensions-39k)**
+        
+        `GitHub Gist: 39c7c93d80f3110422b3a77794423203`
