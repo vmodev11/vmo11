@@ -1,7 +1,7 @@
 ## GIT POLICY
 ### Update latest code from remote:
 
-1. If remote feature branch has update và local feature branch has no update:
+1. If remote feature branch has update and local feature branch has no update:
 
     `[feature] $ git pull origin/feature`
 
