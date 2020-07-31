@@ -32,6 +32,17 @@
 1. Suggestion for vscode:
 
     - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+    - Create file `.prettierrc` at root folder
+    ```
+    {
+      "singleQuote": true,
+      "semi": true,
+      "trailingComma": "all"
+    }
+
+    ```
+    - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
+    - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
     - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
     - **[Settings Sync](https://github.com/shanalikhan/code-settings-sync)**
 
