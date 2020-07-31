@@ -41,8 +41,7 @@
     }
 
     ```
-    - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
-    - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+    
     - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
     - **[Settings Sync](https://github.com/shanalikhan/code-settings-sync)**
 
