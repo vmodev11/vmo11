@@ -89,3 +89,7 @@
     `$ yarn commit`
     
     ![](https://i.imgur.com/lZJLOaa.png)
+
+3. GIT practice
+    You can practice command with git at repo: https://github.com/vmodev11/git-practice
+
