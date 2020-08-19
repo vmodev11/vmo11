@@ -27,6 +27,24 @@
     ---- index.tsx
     ---- type.ts    
     ```
+2. Export
+    ```typescript
+    // ComponentA.tsx
+    export const ComponentA: React.FC = () => <></>;
+    ```
+     ```typescript
+    // ComponentB.tsx
+    export const ComponentB: React.FC = () => <></>;
+    ```
+     ```typescript
+    // index.ts
+    export * from './ComponentA';
+    ```
+    ```typescript
+    // how to use
+    // AnyComponent
+    import { ComponentA, ComponentB } from './components';
+    ```
 
 ### Tools
 1. Suggestion for vscode:
