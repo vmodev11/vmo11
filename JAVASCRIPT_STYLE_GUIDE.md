@@ -8,7 +8,20 @@
 1. [Javascript naming conventions](https://github.com/airbnb/javascript#naming-conventions)
 2. [React naming conventions](https://github.com/airbnb/javascript/tree/master/react#naming)
 3. [CSS-in-JS naming conventions](https://github.com/airbnb/javascript/tree/master/css-in-javascript#naming)
-
+4. Interface & Type
+    ```typescript
+    export interface IUser {
+        name: string;
+        email: string;
+        ...
+    }
+    
+    export type TMember = {
+        name: string;
+        email: string;
+        ...
+    }
+    ```
 ### Composing React Components
 1. Structure
     ```
