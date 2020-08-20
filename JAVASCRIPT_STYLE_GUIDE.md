@@ -47,7 +47,7 @@
     ------ index.ts // use named export for all of components
     ---- index.tsx
     ---- type.ts // local interface or type
-    config // config for anything as axios config
+    configs // config for anything as axios config
     layouts // master layout
     helpers // helper or utilities function
     hooks // react custom hooks
