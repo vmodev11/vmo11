@@ -24,8 +24,16 @@
     ```
 ### Composing React Components
 1. Structure
-    ```
+    ```typescript
     components
+    -- common
+    ---- CommonComponent1.tsx
+    ---- CommonComponent2.tsx
+    ---- index.ts // use named export for all of components
+    -- groupComponents
+    ---- ComponentC1.tsx
+    ---- CompoenntC2.tsx
+    ---- index.ts // use named export for all of components
     -- ComponentA.tsx
     -- ComponentB.tsx
     -- ...
@@ -38,9 +46,19 @@
     ------ ...
     ------ index.ts // use named export for all of components
     ---- index.tsx
-    ---- type.ts    
+    ---- type.ts // local interface or type
+    config // config for anything as axios config
+    layouts // master layout
+    helpers // helper or utilities function
+    hooks // react custom hooks
+    services // login (API)
+    -- user
+    ---- user.services.ts
+    ---- user.interface.ts // or user.type.ts
+    types // global interfaces or types
+    -- response.interface.ts
     ```
-2. Export
+2. Named Export
     ```typescript
     // ComponentA.tsx
     export const ComponentA: React.FC = () => <></>;
@@ -57,6 +75,8 @@
     // how to use
     // AnyComponent
     import { ComponentA, ComponentB } from './components';
+    // or
+    import * as ComponentC from './components';
     ```
 
 ### Tools
@@ -64,7 +84,7 @@
 
     - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
     - Create file `.prettierrc` at root folder
-    ```
+    ```json
     {
       "singleQuote": true,
       "semi": true,
