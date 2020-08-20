@@ -58,7 +58,7 @@
 
     `[feature] $ git reset --hard origin/feature`
 
-### Use SSH
+### Use SSH (REQUIRED)
 1. [Create ssh key](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#generating-a-new-ssh-key)
 2. [Adding a new SSH key to your GitHub account](https://docs.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account)
 3. [Managing Multiple Git Accounts](https://medium.com/the-andela-way/a-practical-guide-to-managing-multiple-github-accounts-8e7970c8fd46)
