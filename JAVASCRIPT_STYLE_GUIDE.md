@@ -1,5 +1,7 @@
 ## JavaScript Style Guide
 
+### React linter custom rules, [see more](https://github.com/vmodev11/react-test-eslint)
+
 ### Airbnb JavaScript Style Guide, [see more](https://github.com/airbnb/javascript)
 
 ### React+TypeScript Cheatsheets, [see more](https://github.com/typescript-cheatsheets/react-typescript-cheatsheet)
