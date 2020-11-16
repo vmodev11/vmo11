@@ -22,27 +22,27 @@
         ...
     }
     ```
-### Composing React Components
+### Compose React components
 1. Structure
     ```typescript
     components
     -- common
-    ---- CommonComponent1.tsx
-    ---- CommonComponent2.tsx
+    ---- common-component-1.tsx
+    ---- common-component-2.tsx
     ---- index.ts // use named export for all of components
-    -- groupComponents
-    ---- ComponentC1.tsx
-    ---- CompoenntC2.tsx
+    -- group-components
+    ---- component-c1.tsx
+    ---- compoennt-c2.tsx
     ---- index.ts // use named export for all of components
-    -- ComponentA.tsx
-    -- ComponentB.tsx
+    -- component-a.tsx
+    -- component-b.tsx
     -- ...
     -- index.ts // use named export for all of components
     pages
-    -- User
+    -- user
     ---- components
-    ------ ListUsers.tsx
-    ------ OtherComponent.tsx
+    ------ list-users.tsx
+    ------ other-component.tsx
     ------ ...
     ------ index.ts // use named export for all of components
     ---- index.tsx
