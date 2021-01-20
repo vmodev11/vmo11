@@ -16,6 +16,7 @@
 ### Git flow
 - Start a feature: `[dev] $ git checkout -b feat/new-feature`
 - Create a pull request to finish a feature
+- TL/PM/Senior Dev will check such PRs and then merge to dev branch
 
 ### Update latest code from remote:
 
