@@ -151,7 +151,10 @@
     ```
     $ gh auth login
     ```
-    
+    ![](https://i.imgur.com/2KFiaSW.png)
+
     ```
     $ gh pr create --base stag --head feat
     ```
+    ![](https://i.imgur.com/OXQiLfL.png)
+
