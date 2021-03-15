@@ -142,3 +142,16 @@
 
     You can practice command with git at repo: https://github.com/vmodev11/git-practice
 
+### Create PR from client (for second account)
+1. Github
+    - Install github CLI https://cli.github.com/
+    - Main account create authentication token for second account (The minimum required scopes are 'repo', 'read:org', 'admin:public_key')
+    - Second account login github CLI by SSH key and authentication token
+    - How to use?
+    ```
+    $ gh auth login
+    ```
+    
+    ```
+    $ gh pr create --base stag --head feat
+    ```
