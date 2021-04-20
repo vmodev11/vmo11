@@ -7,7 +7,7 @@
 ### React+TypeScript Cheatsheets, [see more](https://github.com/typescript-cheatsheets/react-typescript-cheatsheet)
 
 ### Note
-1. Use kebab-case for all package, folder and file names.
+1. Use `kebab-case` for all package, folder and file names.
 1. [Javascript naming conventions](https://github.com/airbnb/javascript#naming-conventions)
 2. [React naming conventions](https://github.com/airbnb/javascript/tree/master/react#naming)
 3. [CSS-in-JS naming conventions](https://github.com/airbnb/javascript/tree/master/css-in-javascript#naming)
