@@ -30,3 +30,13 @@ _Hướng dẫn này dành cho tất cả các thành viên của vũ trụ C11,
 - Web Development: https://trello.com/b/RXm0lC1g/web-development-js-stack
 - ReactJS: https://trello.com/b/RBmKCDEG/react-training
 - NodeJS: https://trello.com/b/ay9GIhsr/nodejs-training
+
+12. Udemy account:
+
+- Username: `huy.ha@vmodev.com`
+- Password: `C11@20xx`
+
+  **Course:**
+
+  - NestJS Zero to Hero - Modern TypeScript Back-end Development
+  - Updating...
