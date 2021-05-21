@@ -1,6 +1,6 @@
 # Welcome to VMO C11 universe!
 
-_Hướng dẫn này dành cho tất cả các thành viên của vũ trụ C11, bao gồm tất cả các thông tin bạn cần biết để có thể gia nhập vào thế giới siêu anh hung của chúng tôi_
+_Hướng dẫn này dành cho tất cả các thành viên của vũ trụ C11, bao gồm tất cả các thông tin bạn cần biết để có thể gia nhập vào thế giới siêu anh hùng của chúng tôi_
 
 ## First Mission: Đọc hiểu toàn bộ tài liệu mà chúng tôi cung cấp.
 
