@@ -1,6 +1,6 @@
 ## JavaScript Style Guide
 
-### React linter custom rules, [see more](https://github.com/vmodev11/react-test-eslint)
+### VMO Eslint Config, [see more](https://www.npmjs.com/package/@vmo11/eslint-config-vmo)
 
 ### Airbnb JavaScript Style Guide, [see more](https://github.com/airbnb/javascript)
 
