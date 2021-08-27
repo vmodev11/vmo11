@@ -31,7 +31,9 @@ _Hướng dẫn này dành cho tất cả các thành viên của vũ trụ C11,
 - ReactJS: https://trello.com/b/RBmKCDEG/react-training
 - NodeJS: https://trello.com/b/ay9GIhsr/nodejs-training
 
-12. Udemy account:
+12. [SET UP SERVER DEV/TEST GUIDE](/documents/SET_UP_SERVER_GUIDE.md)
+
+13. Udemy account:
 
 - Username: `huy.ha@vmodev.com`
 - Password: `C11@20xx`
