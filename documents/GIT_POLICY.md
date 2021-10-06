@@ -47,6 +47,21 @@
 2. [Adding a new SSH key to your GitHub account](https://docs.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account)
 3. [Managing Multiple Git Accounts](https://medium.com/the-andela-way/a-practical-guide-to-managing-multiple-github-accounts-8e7970c8fd46)
 
+### Setup Git local environment (REQUIRED)
+1. Make pre-commit hook. At root directory of your project
+```zsh
+mkdir -p .git/hooks && touch .git/hooks/pre-commit && chmod +x .git/hooks/pre-commit
+```
+2. Get pre-commit script. At root directory of your project
+```zsh
+curl https://gist.githubusercontent.com/huyhavmodev/11581729cf4f1383a136a3f4bbcc327a/raw > .git/hooks/pre-commit
+```
+3. If you are using [husky@^7](https://github.com/typicode/husky) then run this command instead of 2 steps above
+```zsh
+npx husky add .husky/pre-commit ""
+curl https://gist.githubusercontent.com/huyhavmodev/11581729cf4f1383a136a3f4bbcc327a/raw > .husky/pre-commit
+```
+
 ### More tool
 1. Suggestion for vscode: 
     - [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
