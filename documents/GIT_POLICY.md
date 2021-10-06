@@ -61,6 +61,7 @@ curl https://gist.githubusercontent.com/huyhavmodev/11581729cf4f1383a136a3f4bbcc
 npx husky add .husky/pre-commit ""
 curl https://gist.githubusercontent.com/huyhavmodev/11581729cf4f1383a136a3f4bbcc327a/raw > .husky/pre-commit
 ```
+**Once you're done with the configuration, the first commit will ask to configure git credentials locally in your terminal prompt.**
 
 ### More tool
 1. Suggestion for vscode: 
