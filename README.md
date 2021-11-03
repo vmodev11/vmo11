@@ -20,10 +20,11 @@ _Hướng dẫn này dành cho tất cả các thành viên của vũ trụ C11,
    https://docs.google.com/spreadsheets/d/1OlS8UIKYiC5paTiori6khzxxCz4BXrTQ6wFbRShWAtQ/edit?usp=sharing
 9. Slack conventions
    https://docs.google.com/spreadsheets/d/1QX73rGK1zltdKngoFc2LjLTTiyv8Kc5WICnJKO0O_hM
-10. Team building
+10. Team building & Discussion
 
 - C11 Moments: https://drive.google.com/drive/folders/1H0TSH4sklFnnrru3oQNkSpPIUizV96XC?usp=sharing
 - C11 Funds: https://docs.google.com/spreadsheets/d/1leaFtiI8H4Q7cR4GKJW7HDnc5dgrzO4zrsfqlUSuHzc/edit?usp=sharing
+- C11 Tech Talks: https://chat.google.com/room/AAAAK7e4eyo/WasnMXIuork
 
 11. Training documents - Nội dung tự học (Cải thiện kỹ năng học, kỹ năng research, lấp lỗ hổng kiến thức)
 
