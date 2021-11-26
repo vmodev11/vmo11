@@ -1,5 +1,23 @@
 ## GIT POLICY
 ### Branch naming:
+- **Protected branches:** We should have protected branches.
+  Which is always not easy to be merged. They can be different name in different projects.
+  For example, in this document, we have branches: `master` and `product`.
+  `master` should include well tested code,
+  feature branches need to be reviewed by other devs before merged into `master`.
+  And `product` should be the final result after each milestone we reach
+  and be ready for production.
+- **Feature branches:**
+  the branches the developers be working on it.
+  Include bug fix, new feature.
+  Every feature branch should be corresponding with an issue be created on git server
+  (github ,gitlab , etc...). A `feature branch` should be named as a standard format.
+  I would love to propose a standard: `{issue_id}_{issue_name}` in this document.
+  For example: `1_init_source_base`, `205_fix_bug_when_send_marketing_email`, ...
+<details>
+<summary>See some examples for branch naming</summary>
+<p>
+
 - `prod`, `release/x.x.x`, `stag`, `pre-stag`, `test`, `dev`, `feat/[tag-name]`, `bugfix/[tag-name]`, `feat/[tag-name]-stag`, `bugfix/[tag-name]-stag`, `hotfix/[tag-name]`
 - `prod`: for production environment
 - `release/x.x.x`: for release version
@@ -10,29 +28,17 @@
 - `feat/[tag-name]` eg: `feat/auth`, `feat/user-management`, `feat/JIRA-TASK-ID`, `feat/[username]` ... for specific feature. If we have any different setting for other environment, add more suffix like that `feat/auth-stag`, `feat/[username]-stag`
 - `bugfix/[tag-name]`: for fix bugs
 - `hotfix/[tag-name]`: for hotfix on production enviroment (from production branch). After hotfix done, all of branches must be rebased this branch to get updated code.
+</p>
+</details>  
 
 **The number of branches depend on the specific project*
-
-### **Protected branches:** 
-We should have protected branches.
-  Which is always not easy to be merged. They can be different name in different projects.
-  For example, in this document, we have branches: `master` and `product`.
-  `master` should include well tested code,
-  feature branches need to be reviewed by other devs before merged into `master`.
-  And `product` should be the final result after each milestone we reach
-  and be ready for production.
-### **Feature branches:** 
-the branches the developers be working on it.
-  Include bug fix, new feature.
-  Every feature branch should be corresponding with an issue be created on git server
-  (github ,gitlab , etc...). A `feature branch` should be named as a standard format.
-  I would love to propose a standard: `{issue_id}_{issue_name}` in this document.
-  For example: `1_init_source_base`, `205_fix_bug_when_send_marketing_email`, ...
 ### **Issue:** 
-an issue should be full detail and informative. If it is a bug.
+May can be different name on jira (task, bug,...).
+An issue should be full detail and informative. If it is a bug.
   It should give the link to the bug, describe how to reproduce the bug,
   the old state and the expected state.
-### **Pull request:** (or `merge request` in other word. In this doc I call it be `pr`.
+### **Pull request:** 
+(or `merge request` in other word. In this doc I call it be `pr`.
   See [an example](https://github.com/decred/politeiagui/pull/2628))
   A `pr` is a proposal for merging a `feature branch` into `protected branch`.
   The `pr` should be fully informative of what issue it solves, what it does,
