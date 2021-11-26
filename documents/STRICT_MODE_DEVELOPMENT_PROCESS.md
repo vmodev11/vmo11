@@ -36,15 +36,3 @@ This process ensure the code on `master` is always well structure and deliver co
 A full experience developer can help a newbie when he is reviewing the newbie's `pr`. 
 While a newbie can learn from the senior dev's `pr`. But keep in mind that everyone can make mistake.
 So everyone is advised for reviewing.
-* ### 2. Code Standards
-* **Code style:** Code style should be validated by a linter tool to ensure the readability.
-The naming is important. The name of variable and function should be descriptive.
-What does it do and what does it mean? The name style should be approved by naming standard.
-There are a few of naming style. As I know: underscore (var_name_here), camelCase (varNameHere)
-or PascalCase(VarNameHere). What do you choose is depending on your style, the language or framework.
-Anything but it should be approved along the entire project.
-* **Comments:** Comment should be used on describe a function or a variable.
-Should not be used for blocking no longer used code.
-* **Note:** Unused code should be removed.
-The log for debugging should be removed after the work done also.
-The log to be submitted on product is only for system information.
