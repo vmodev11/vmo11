@@ -20,22 +20,24 @@ _Hướng dẫn này dành cho tất cả các thành viên của vũ trụ C11,
    https://docs.google.com/spreadsheets/d/1OlS8UIKYiC5paTiori6khzxxCz4BXrTQ6wFbRShWAtQ/edit?usp=sharing
 9. Slack conventions
    https://docs.google.com/spreadsheets/d/1QX73rGK1zltdKngoFc2LjLTTiyv8Kc5WICnJKO0O_hM
-10. Team building & Discussion
+10. EC2 Instance profile (best practice)
+   https://docs.google.com/document/d/1iBy7VRXtcqemWWvTJAxZSAE-gJJ3oAgh6QDeqx4bI1Q/edit
+11. Team building & Discussion
 
 - C11 Moments: https://drive.google.com/drive/folders/1H0TSH4sklFnnrru3oQNkSpPIUizV96XC?usp=sharing
 - C11 Funds: https://docs.google.com/spreadsheets/d/1leaFtiI8H4Q7cR4GKJW7HDnc5dgrzO4zrsfqlUSuHzc/edit?usp=sharing
 - C11 Group: https://chat.google.com/room/AAAAhSuOjtc/tAin-MAGm8s
 - C11 Tech Talks: https://chat.google.com/room/AAAAK7e4eyo/WasnMXIuork
 
-11. Training documents - Nội dung tự học (Cải thiện kỹ năng học, kỹ năng research, lấp lỗ hổng kiến thức)
+12. Training documents - Nội dung tự học (Cải thiện kỹ năng học, kỹ năng research, lấp lỗ hổng kiến thức)
 
 - Web Development: https://trello.com/b/RXm0lC1g/web-development-js-stack
 - ReactJS: https://trello.com/b/RBmKCDEG/react-training
 - NodeJS: https://trello.com/b/ay9GIhsr/nodejs-training
 
-12. [SET UP SERVER DEV/TEST GUIDE](/documents/SET_UP_SERVER_GUIDE.md)
+13. [SET UP SERVER DEV/TEST GUIDE](/documents/SET_UP_SERVER_GUIDE.md)
 
-13. Udemy account:
+14. Udemy account:
 
 - Username: `huy.ha@vmodev.com`
 - Password: `C11@20xx`
