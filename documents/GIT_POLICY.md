@@ -75,7 +75,7 @@ curl https://gist.githubusercontent.com/huyhavmodev/11581729cf4f1383a136a3f4bbcc
 ### Create PR from client (for second account)
 1. Github
     - Install github CLI https://cli.github.com/
-    - Main account create authentication token for second account (The minimum required scopes are `repo`, `read:org`, `admin:public_key`)
+    - Main account create authentication token for second account https://github.com/settings/tokens (The minimum required scopes are `repo`, `read:org`, `admin:public_key`)
     - Second account login github CLI by SSH key and authentication token
     - How to use?
     ```
