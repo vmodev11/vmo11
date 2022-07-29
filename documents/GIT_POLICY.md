@@ -32,7 +32,7 @@
     - Let's use the graph to track commit history across branches
 
 3. Keep commit history on working branches clean
-
+    
     - Let's use rebase to update working branches
         ```bash
         git pull --rebase
@@ -49,27 +49,27 @@
 
 ### Setup Git local environment (REQUIRED)
 1. Make `prepare-commit-msg` hook. At root directory of your project
-```zsh
-mkdir -p .git/hooks && touch .git/hooks/prepare-commit-msg && chmod +x .git/hooks/prepare-commit-msg
-```
-  - Windows only
     ```zsh
-    mkdir -p .git/hooks
+    mkdir -p .git/hooks && touch .git/hooks/prepare-commit-msg && chmod +x .git/hooks/prepare-commit-msg
     ```
+    - Windows only
+        ```zsh
+        mkdir -p .git/hooks
+        ```
 2. Get pre-commit script. At root directory of your project
-```zsh
-curl https://gist.githubusercontent.com/huyhavmodev/11581729cf4f1383a136a3f4bbcc327a/raw > .git/hooks/prepare-commit-msg
-```
+    ```zsh
+    curl https://gist.githubusercontent.com/huyhavmodev/11581729cf4f1383a136a3f4bbcc327a/raw > .git/hooks/prepare-commit-msg
+    ```
 3. If you are using [husky@^7](https://github.com/typicode/husky) then run this command instead of 2 steps above
-```zsh
-npx husky add .husky/prepare-commit-msg ""
-curl https://gist.githubusercontent.com/huyhavmodev/11581729cf4f1383a136a3f4bbcc327a/raw > .husky/prepare-commit-msg
-```
-  - Update `.husky\.gitignore` file
+    ```zsh
+    npx husky add .husky/prepare-commit-msg ""
+    curl https://gist.githubusercontent.com/huyhavmodev/11581729cf4f1383a136a3f4bbcc327a/raw > .husky/prepare-commit-msg
     ```
-    _
-    prepare-commit-msg
-    ```
+    - Update `.husky\.gitignore` file
+        ```
+        _
+        prepare-commit-msg
+        ```
 **Once you're done with the configuration, the first commit will ask to configure git credentials locally in your terminal prompt.**
 
 ### More tool
